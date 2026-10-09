@@ -164,9 +164,6 @@ void setup() {
   writeram(clearBuf);
   sendcmd(0x03);
   sendcmd(0x8C);
-  sendbitat(6, 4, 1);
-  sendbitat(2, 4, 1);
-  sendbitat(4, 4, 1);
 }
 
 void loop() {
