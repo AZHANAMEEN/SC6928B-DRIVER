@@ -2,6 +2,8 @@
 
 This sketch drives an SC6928B 7-segment display driver over a simple serial-like interface.
 It stores a display buffer, writes digits to the driver RAM, and can configure decimal points and custom bit-level updates.
+Also includes a pseudo clock which displays hardcoded time. 
+Do not forget to change the pin assignments as this was originally coded for the AVR64DA28 so pin names should be changed accodingly.
 
 ## Hardware pins
 
