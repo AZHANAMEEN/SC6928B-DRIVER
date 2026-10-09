@@ -7,7 +7,7 @@ Do not forget to change the pin assignments as this was originally coded for the
 
 ## Hardware pins
 
-The sketch uses these Arduino pins:
+The sketch uses these Avr pins:
 
 - `S` = `PIN_PC0`
 - `C` = `PIN_PC1`
@@ -15,6 +15,8 @@ The sketch uses these Arduino pins:
 - `IR` = `PIN_PC3`
 
 `S` is the chip select / latch line, `C` is the clock, and `D` is the data pin.
+
+Change them according to your Arduino board.
 
 ## Display buffer layout
 
